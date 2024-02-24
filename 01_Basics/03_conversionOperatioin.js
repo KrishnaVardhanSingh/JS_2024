@@ -32,8 +32,36 @@ let changeToBool = Boolean(age)
 let year = undefined
 let changeToString = String(year)
 
-console.log(changeToString);
+// console.log(changeToString);
 
 /*
     we will get whatever we try to write in this variable year
 */
+
+
+
+/******************************************** OPERATIONS *********************************************/
+
+let val = 23
+let negVal = -val
+
+// console.log(negVal);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**5); // use as 2 pow 5
+// console.log(2/2);
+// console.log(2%2);
+
+
+
+let str1 = "one"
+let str2 = "two"
+let str3 = str1 + str2
+
+// console.log(str3);
+
+// console.log(1 + "2");       // 12
+// console.log(1 + 2 + "2");   // 32
+// console.log("1" + 2 + 3);   // 123
