@@ -38,3 +38,34 @@ function loginMessage(username = "Random"){
 
 console.log(loginMessage("Krishna"))
 
+
+
+
+// what if no. of arguments are not predefined e.g. sum of cart items price
+// ... -> is a rest as well as spread operator depend on their usecases
+
+function cartItemsPrice(val1, ...num){
+    return num
+}
+
+console.log(cartItemsPrice(100, 24000, 1256));     //  1st value will be assign to the val1 rest to num
+
+
+
+
+// passing Objects as a parameter
+const productInfo = {
+    name : "laptop",
+    price : 123312
+}
+
+function handelObject(anyObject){
+    console.log(`The price of this ${anyObject.name} is ${anyObject.price} only`);
+}
+
+// handelObject(productInfo)
+handelObject({
+    name : "watch",
+    price : "1299"
+})
+
