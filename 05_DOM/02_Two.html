@@ -1,0 +1,32 @@
+// adding child node to a parent node or to the web page using JS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add node to tree using DOM</title>
+</head>
+<body style="background-color: rgb(50, 50, 50);">
+    
+    
+</body>
+<script>
+
+    const div = document.createElement("div")
+    div.className = "divOne"
+    div.id = "firstDiv"
+    div.style.backgroundColor = "#dcc7f0"
+    div.style.color = "black"
+    div.style.fontSize = "poppins"
+    div.style.fontSize = "2rem"
+    const newText = document.createTextNode("Krishna Vardhan Singh")
+    div.append(newText)
+    div.style.padding = "0.3rem 0.3rem 0.3rem 1.5rem"
+    div.style.borderRadius = "0.4rem"
+    document.body.append(div)
+
+    document.body.style.margin = "0"
+</script>
+</html>
