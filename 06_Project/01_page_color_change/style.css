@@ -1,0 +1,38 @@
+.main{
+    background-color: #f1f1f1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    margin: 0.5rem;
+    border: none;
+}
+
+.btn:hover{
+    scale: 1.5;
+    transition: 0.22s;
+    margin: 2rem;
+}
+
+.main #one{
+    background-color: #F5DD61;
+    border: 1px solid white;
+}
+.main #two{
+    background-color: #59D5E0;
+    border: 1px solid white;
+}
+.main #three{
+    background-color: #535C91;
+    border: 1px solid white;
+}
+.main #four{
+    background-color: #C68484;
+    border: 1px solid white;
+}
+
