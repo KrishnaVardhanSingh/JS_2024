@@ -20,7 +20,6 @@ body{
     align-items: center;
     background-color: #2F2F2F;
     width: 25rem;
-    height: ;
     padding: 2rem;
     margin: 15rem auto;
     /* margin-top: 20vh;
@@ -89,4 +88,9 @@ body{
 #calculate:hover{
     transition: 0.22s;
     scale: 1.1;
+}
+
+#output{
+    text-align: center;
+    margin: 0.4rem 5rem;
 }
