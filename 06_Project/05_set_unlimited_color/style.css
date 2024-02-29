@@ -1,0 +1,42 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    text-shadow: 0.3rem 0.3rem 1rem ;
+}
+
+#start{
+    width: 8rem;
+    height: 2rem;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem;
+}
+#start:hover{
+    /* transition: 10sec; */
+    scale: 1.5;
+    margin-bottom: 1rem;
+}
+
+#stop{
+    width: 8rem;
+    height: 2rem;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0.2rem 0.2rem 0.5rem;
+}
+#stop:hover{
+    /* transition: 0.24sec; */
+    scale: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
